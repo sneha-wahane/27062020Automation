@@ -38,10 +38,10 @@ public class Variables {
 		 //Boolean
 		 boolean x=true;
 		 // NON primitive: arrays,classes,interfaces
-		 System.out.print(name);
-		 System.out.print(name);
-		 System.out.print(name);
-		 System.out.print(name);
+		 System.out.println(e);
+		 System.out.println(g);
+		 System.out.println(b);
+		 System.out.println(age);
 		
 	}
 
