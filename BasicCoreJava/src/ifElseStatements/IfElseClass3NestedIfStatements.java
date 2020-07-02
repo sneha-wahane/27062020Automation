@@ -14,7 +14,7 @@ public class IfElseClass3NestedIfStatements {
 			 System.out.println("a is greatest");
 		 }
 	 }else {
-		 
+		 System.out.println("c is greatest");
 	 }
 	 }
 }
