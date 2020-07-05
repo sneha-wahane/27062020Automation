@@ -17,11 +17,11 @@ public class IfElseClass2RlationalOperators {
 		}
 		if(a<=b && c!=d)
 		{
-			System.out.println("hello Automation");
+			System.out.println("a is less than equal to b");
 		}
 		if(d<e ||c>=a)
 		{
-			System.out.println("Hello");
+			System.out.println("d is less than e");
 		}
 		if(c==e)
 		{
