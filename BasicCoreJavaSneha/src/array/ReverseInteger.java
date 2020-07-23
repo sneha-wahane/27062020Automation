@@ -1,7 +1,8 @@
 package array;
 
 public class ReverseInteger {
-	 static void reverse(int a[], int n) 
+	//Make an integer array. Write a for loop to print the integer array in reverse.
+	 /*static void reverse(int a[], int n) 
 	    { 
 	        int[] b = new int[n]; 
 	        int j = n; 
@@ -21,5 +22,19 @@ public class ReverseInteger {
 	    int [] arr = {10, 20, 30, 40, 50}; 
        reverse(arr, arr.length); 
     }
-	
+	*/
+	public static void main(String[] args)
+	{
+		int[] num= {10,20,30,40,50,60};
+		System.out.println("Reversed array is:" ); 
+        
+        for (int i=num.length-1;i>=0;i--) 
+        { 
+        	System.out.println(num[i]+"");
+        }
+        
+        
+		
+		
+	}
 }

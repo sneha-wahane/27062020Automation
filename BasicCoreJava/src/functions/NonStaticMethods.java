@@ -8,6 +8,7 @@ public class NonStaticMethods {
 		
 		NonStaticMethods obj=new NonStaticMethods();
 		System.out.println(obj.name);
+		System.out.println(obj.name2);
 	}
 
 }

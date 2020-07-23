@@ -1,35 +1,19 @@
 package array;
 
-public class LeastNumber {
-	static void least(int a[], int n)
+public class LeastNumber{
+	//Find the least number in a array
+	public static void main(String[] args)
 	{
-		
-		int min;
-		
-		for(int i=0; i<n;i++)
+	int[] arr = {2,11,44,78,113,16,90};
+	int min=arr[0];
+	
+	for(int i=1; i<arr.length;i++)
+	{
+		if(min>arr[i])
 		{
-			for(int j=i+1; j<n;j++)
-			{
-				if (a[i] > a[j])   
-                {  
-                    min = a[i];  
-                    a[i] = a[j];  
-                    a[j] = min;  
-                }  
-			}
+			min=arr[i];
 		}
-		
-		
-		
 	}
-
-		  
-
-		public static void main(String[] args)
-	    {
-		    int [] a = {10, 60, 30, 44, 50}; 
-		    
-	       System.out.println(""+a[5]);
-	    }
-
+	System.out.println(""+ min);
+}
 }

@@ -22,6 +22,7 @@ public class Students {
 		arr[2]="anand";
 		new Mobile();
 		new Telephone();
+		System.out.println(arr[0]);
 
 	}
 

@@ -13,9 +13,9 @@ public class DynamicPolymorphism {
 		SmartPhone obj1 =new SmartPhone();
 		Telephone obj3=new Telephone();*/
 		Telephone obj4=null;//WebDriver
-		/*obj4=new Telephone();
+		obj4=new Telephone();
 		obj4.calling();
-		obj4.calling();*/
+		obj4.calling();
 		String browsername="Chrome";
 		if(browsername.equals("Chrome"))
 		{
@@ -27,6 +27,7 @@ public class DynamicPolymorphism {
 		}
 		//Script start
 		obj4.calling();
+		
 	}
 
 }
